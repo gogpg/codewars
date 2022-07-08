@@ -1,0 +1,24 @@
+{
+  "name": "music-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "switch.js": "nodemon ./switch.js",
+    "arrayValue.js": "nodemon ./arrayValue.js",
+    "sumOfPositive.js": "nodemon ./sumOfPositive.js",
+    "polishAlphabet.js" : "nodemon ./polishAlphabet.js",
+    "findTheMatch.js": "nodemon ./findTheMatch.js",
+    "even.js": "nodemon ./even.js",
+    "bulletsDragons.js" : "nodemon ./bulletsDragons.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Giedre",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
