@@ -1,15 +1,15 @@
 console.clear();
 
 function arrayMadness(a, b) {
-    let total2 = 0;
-    let total3 = 0;
-    for (let i = 0; i < a.length; i++) {
+    let total2 = 0;   ///vieno masyvo bendra sudaugintu skaiciu suma
+    let total3 = 0;    //kito masyvo bendra sudaugintu skaiciu suma
+    for (let i = 0; i < a.length; i++) {   //vieno masyvo visus skaicius sudauginu kvadratu
         total2 += a[i] ** 2;
     }
-    for (let i = 0; i < b.length; i++) {
+    for (let i = 0; i < b.length; i++) {  ///kito masyvo visus skaicius sudauginu kubu
         total3 += b[i] ** 3;
     }
-    return total2 > total3;
+    return total2 > total3;   //graziname palyginima kuris didesnis
 }
 
 console.log(arrayMadness([4, 5, 6], [1, 2, 3]), true);

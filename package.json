@@ -12,6 +12,7 @@
     "polishAlphabet.js" : "nodemon ./polishAlphabet.js",
     "findTheMatch.js": "nodemon ./findTheMatch.js",
     "even.js": "nodemon ./even.js",
+    "2D" : "nodemon ./2D-arraySum.js",
     "bulletsDragons.js" : "nodemon ./bulletsDragons.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
